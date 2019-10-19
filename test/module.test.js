@@ -1,3 +1,7 @@
+/**
+ * @todo todo test.
+ */
+
 jest.setTimeout(60000)
 
 const { Nuxt, Builder } = require('nuxt-edge')

@@ -1,6 +1,6 @@
 {
   "name": "nuxt-breakpoints",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Resize observer breakpoints with Nuxt.js module.",
   "license": "MIT",
   "contributors": [
@@ -11,7 +11,7 @@
   "main": "lib/module.js",
   "repository": "https://github.com/steven0811/nuxt-breakpoints.git",
   "publishConfig": {
-    "access": "public"
+    "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
     "dev": "nuxt example",
@@ -23,7 +23,6 @@
   "files": [
     "lib"
   ],
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "dependencies": {
     "resize-observer-polyfill": "^1.5.1"
   },

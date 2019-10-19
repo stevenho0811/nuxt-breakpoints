@@ -49,7 +49,14 @@ yarn add nuxt-breakpoints # or npm install nuxt-breakpoints
 // components.vue
 export default {
   computed: {
-    isMdOrSm () { return this.$breakpoints.md || this.$breakpoints.sm }
+    isMdOrSm () { return this.$breakpoints.md || this.$breakpoints.sm },
+    isLargeThanSm() {
+      return this.$breakpoints.lSm
+    },
+    isSmallThanMd() {
+      return this.$breakpoints.sMd
+    }
+    // ... etc lSm lMd lLg, and sSm sMd sLg
   }
 }
 ```

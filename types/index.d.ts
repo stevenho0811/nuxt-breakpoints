@@ -1,3 +1,5 @@
+import Vue from 'vue'
+
 interface NuxtBreakpoints {
     current: string
 

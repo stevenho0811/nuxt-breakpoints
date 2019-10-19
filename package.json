@@ -1,6 +1,6 @@
 {
   "name": "nuxt-breakpoints",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "license": "MIT",
   "contributors": [
@@ -16,8 +16,8 @@
   "scripts": {
     "dev": "nuxt example",
     "lint": "eslint --ext .js,.vue example lib test",
-    "test": "yarn lint && jest",
-    "release": "yarn lint && standard-version && git push --follow-tags && npm publish"
+    "test": "yarn lint && jest && codecov",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish"
   },
   "files": [
     "lib"

@@ -23,24 +23,12 @@ interface NuxtBreakpoints {
     height: number
 }
 
-
-interface NuxtBreakpointsOptions {
-    sm: number
-    md: number
-    lg: number
-    xl: number
-    options : {
-        polyfill: boolean
-        throttle: number
-    }
-}
-
 declare module '@nuxt/vue-app' {
   interface Context {
     $breakpoints: NuxtBreakpoints
   }
   interface NuxtAppOptions {
-    $breakpoints: NuxtBreakpointsOptions
+    $breakpoints: NuxtBreakpoints
   }
 }
 
@@ -50,7 +38,7 @@ declare module '@nuxt/types' {
     $breakpoints: NuxtBreakpoints
   }
   interface NuxtAppOptions {
-    $breakpoints: NuxtBreakpointsOptions
+    $breakpoints: NuxtBreakpoints
   }
 }
 

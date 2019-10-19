@@ -51,10 +51,10 @@ export default {
   computed: {
     isMdOrSm () { return this.$breakpoints.md || this.$breakpoints.sm },
     isLargeThanSm() {
-      return this.$breakpoints.lSm
+      return this.$breakpoints.lSm // Is Large than sm include sm
     },
     isSmallThanMd() {
-      return this.$breakpoints.sMd
+      return this.$breakpoints.sMd // Is Small than md include md
     }
     // ... etc lSm lMd lLg, and sSm sMd sLg
   }

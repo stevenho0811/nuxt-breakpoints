@@ -2,10 +2,9 @@
 
 > Resize observer breakpoints with Nuxt.js module.
 
-[![npm version][npm-version-src]][npm-version-href]
-[![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![NPM](https://nodei.co/npm/nuxt-breakpoints.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/nuxt-breakpoints/)
 [![Codecov](https://codecov.io/gh/steven0811/nuxt-breakpoints/branch/master/graph/badge.svg)](https://codecov.io/gh/steven0811/nuxt-breakpoints)
-[![License][license-src]][license-href]
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 >
 
@@ -64,7 +63,9 @@ yarn add nuxt-breakpoints # or npm install nuxt-breakpoints
 
 ## Ref
 [Nuxt.js](https://nuxtjs.org)
+
 [MDN - ResizeObserver](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver)
+
 [ResizeObserver Polyfill](https://github.com/que-etc/resize-observer-polyfill)
 
 

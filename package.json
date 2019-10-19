@@ -1,7 +1,7 @@
 {
   "name": "nuxt-breakpoints",
   "version": "1.0.4",
-  "description": "",
+  "description": "Resize observer breakpoints with Nuxt.js module.",
   "license": "MIT",
   "contributors": [
     {
@@ -9,7 +9,7 @@
     }
   ],
   "main": "lib/module.js",
-  "repository": "",
+  "repository": "https://github.com/steven0811/nuxt-breakpoints.git",
   "publishConfig": {
     "access": "public"
   },

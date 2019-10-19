@@ -23,6 +23,7 @@
   "files": [
     "lib"
   ],
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "dependencies": {
     "resize-observer-polyfill": "^1.5.1"
   },

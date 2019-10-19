@@ -19,6 +19,7 @@
     "test": "yarn lint && jest && codecov",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish"
   },
+  "types": "lib/types.d.ts",
   "files": [
     "lib"
   ],

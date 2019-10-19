@@ -3,10 +3,10 @@
 > Resize observer breakpoints with Nuxt.js module.
 
 [![NPM](https://nodei.co/npm/nuxt-breakpoints.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/nuxt-breakpoints/)
+[![Buy Me A Beer](https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/black_img.png)](https://www.buymeacoffee.com/steven0811)
 [![Codecov](https://codecov.io/gh/steven0811/nuxt-breakpoints/branch/master/graph/badge.svg)](https://codecov.io/gh/steven0811/nuxt-breakpoints)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
->
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
@@ -44,14 +44,24 @@ yarn add nuxt-breakpoints # or npm install nuxt-breakpoints
   }
 }
 ```
+## Usage
+```js
+// components.vue
+export default {
+  computed: {
+    isMdOrSm () { return this.$breakpoints.md || this.$breakpoints.sm }
+  }
+}
+```
+
 ## Options
 | property | type                                        | default                           | note                                                                                                                                                                                                                          |
 |----------|---------------------------------------------|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| xs       | none                                        | none                              | <= 576px                                                                                                                                                                                                                      |
-| sm       | number                                      | 576                               | >= 576px && <= 768px                                                                                                                                                                                                          |
-| md       | number                                      | 768                               | >= 768px && <= 992px                                                                                                                                                                                                          |
-| lg       | number                                      | 992                               | >= 992px && <= 1200px                                                                                                                                                                                                         |
-| xl       | number                                      | 1200                              | >= 1200px                                                                                                                                                                                                                     |
+| xs       | none                                        | none                              | <= 576px，Extra small, smallest.                                                                                                                                                                                              |
+| sm       | number                                      | 576                               | >= 576px(sm) && <= 768px(md)                                                                                                                                                                                                  |
+| md       | number                                      | 768                               | >= 768px(md) && <= 992px(lg)                                                                                                                                                                                                  |
+| lg       | number                                      | 992                               | >= 992px(lg) && <= 1200px(xl)                                                                                                                                                                                                 |
+| xl       | number                                      | 1200                              | >= 1200px, Extra large, largest.                                                                                                                                                                                              |
 | options  | object<polyfill: boolean, throttle: number> | { polyfill: true, throttle: 200 } | `polyfill` default by true, which means will auto-import `resize-observer-polyfill` when the browser doesn't support ResizeObserver more information below, `throttle` will slow down when Window has resizing trigger speed. |
 
 ## Development

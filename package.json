@@ -23,8 +23,8 @@
   },
   "scripts": {
     "dev": "nuxt example",
-    "build:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt build",
-    "generate:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt generate",
+    "build:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt build example",
+    "generate:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt generate example",
     "lint": "eslint --ext .js,.vue example lib test",
     "test": "yarn lint && jest && codecov",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish",

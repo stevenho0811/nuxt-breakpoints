@@ -36,6 +36,7 @@
     "types/*.d.ts"
   ],
   "dependencies": {
+    "lodash": "^4.17.15",
     "resize-observer-polyfill": "^1.5.1"
   },
   "devDependencies": {
@@ -53,7 +54,7 @@
     "get-port": "latest",
     "husky": "latest",
     "jest": "latest",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.0",
     "nuxt-edge": "latest",
     "push-dir": "^0.4.1",
     "request": "latest",

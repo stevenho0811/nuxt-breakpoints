@@ -54,7 +54,7 @@
     "get-port": "latest",
     "husky": "latest",
     "jest": "latest",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "nuxt-edge": "latest",
     "push-dir": "^0.4.1",
     "request": "latest",

@@ -1,16 +1,26 @@
+# IMPORTANT NOTE: THIS REPO IS DEPRECATED.
+So why is this repo deprecated? As time goes by, browsers and front-end progress rapidly, this lib was initially created to make it easy for me to get the current breakpoints through js when using Nuxt 2 at work, to display specific components, it has served its purpose for a while but it was not continuously maintained.
+
+Nowadays, Resize Observer is widely used and has good support, there are even better alternatives like MediaQueryList that have better ways of achieving the same goal.
+
+Vue and Nuxt have also released version 3, if you are already using the composition-api, VueUse has also provided useBreakpoints which may be a good alternative option.
+
+As things change, implementing a similar lib is not difficult, I recently tidied up my GitHub and thought this package is no longer necessary.
+So I have decided to deprecate this project, I hope to write other good projects in the future and maintain them properly.
+
 # nuxt-breakpoints
 
 > Resize observer breakpoints with Nuxt.js module.
 
 [![NPM](https://nodei.co/npm/nuxt-breakpoints.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/nuxt-breakpoints/)
-<a href="https://www.buymeacoffee.com/steven0811" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-[![Codecov](https://codecov.io/gh/steven0811/nuxt-breakpoints/branch/master/graph/badge.svg)](https://codecov.io/gh/steven0811/nuxt-breakpoints)
+<a href="https://www.buymeacoffee.com/stevenho0811" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+[![Codecov](https://codecov.io/gh/stevenho0811/nuxt-breakpoints/branch/master/graph/badge.svg)](https://codecov.io/gh/stevenho0811/nuxt-breakpoints)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Package Size](https://img.shields.io/bundlephobia/minzip/nuxt-breakpoints)](https://nodei.co/npm/nuxt-breakpoints/)
 
 
 
-[DEMO](https://steven0811.github.io/nuxt-breakpoints/)
+[DEMO](https://stevenho0811.github.io/nuxt-breakpoints/)
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
@@ -96,4 +106,4 @@ export default {
 
 [MIT License](./LICENSE)
 
-Copyright (c) Steven Ho <shockshocksoul@gmail.com>
+Copyright (c) Steven Ho <hi@stevenho.pro>

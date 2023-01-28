@@ -21,6 +21,8 @@ interface NuxtBreakpoints {
 
     width: number
     height: number
+
+    orientation: string
 }
 
 declare module '@nuxt/vue-app' {
